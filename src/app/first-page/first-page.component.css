@@ -1,0 +1,434 @@
+@font-face {
+  font-family:ir;
+  src: url(../../assets/fonts/ir.ttf);
+}
+.mybody {
+  font-family:ir,Tahoma, sans-serif !important;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/royalmain.jpeg");
+}
+.h2{
+  font-family:ir,Tahoma, sans-serif !important;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -10px;
+
+
+}
+.inlinecontainer{
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  clear: both;
+  clear: both;
+  background-color: purple; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  text-align: center;
+
+}
+
+#example1 {
+  max-height: 25vh;
+  margin: 1vh;
+  text-align: center;
+  padding-bottom: 100px;
+  padding: 20px;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+
+#example2 {
+  border: 20px solid #253E12;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30%;
+  background-color: #253E12; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+#example3 {
+  border: 2px solid #D47FA6;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30%;
+  background-color: #D47FA6; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+#example4 {
+  border: 2px solid #4EBDEF;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30%;
+  background-color: #4EBDEF; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+#example5 {
+  border: 2px solid #253E12;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30%;
+  background-color: #253E12; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+#example6 {
+  border: 2px solid #D47FA6;
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30%;
+  background-color: #D47FA6; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+#example7 {
+  border: 1px solid #241332;
+  padding: 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-left-radius: 50%;
+  background-color: #241332; /* The page background will be black */
+  color: white; /* The page text will be white */
+  margin-bottom: 20px;
+}
+#example8 {
+  border: 1px solid #241332;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20%;
+  border-top-right-radius: 20px;
+  border-top-right-radius: 20%;
+  background-color: #241332; /* The page background will be black */
+  color: white; /* The page text will be white */
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  margin-left: auto;
+  width: 95vw;
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 25vh;
+  align-items: center;
+  align-self: center;
+  z-index: 9;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: #8A56AC;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  padding: 5px;
+  text-align: justify; /* For Edge */
+  text-align-last: right;
+
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: purple;
+  color: grey;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: pink;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button-v {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 80px;
+  right: 48px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup-v {
+  margin-left: auto;
+  width: 95vw;
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 25vh;
+  align-items: center;
+  align-self: center;
+  z-index: 9;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: #8A56AC;
+}
+
+/* Add styles to the form container */
+.form-container-v {
+  max-width: 100%;
+  padding: 5px;
+  text-align: justify; /* For Edge */
+  text-align-last: right;
+
+}
+
+/* Full-width input fields */
+.form-container-v input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container-v input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container-v .btn {
+  background-color: purple;
+  color: grey;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container-v .cancel {
+  background-color: pink;
+}
+
+/* Add some hover effects to buttons */
+.form-container-v .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+
+
+
+/* Absolute Center Spinner */
+.loading {
+  position: relative;
+  height: 2em;
+  width: 2em;
+  margin-top: auto;
+  margin-right: 47vw;
+  margin-top: 10vh;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  font-family: IRANSans !important;
+  /*background: linear-gradient(to right, #ff00cc, #333399);*/
+}

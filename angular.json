@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/app/chatroom/font/WebFonts/css/fontiran.css",
+              "src/app/chatroom/font/WebFonts/css/style.css",
+              "node_modules/animate.css/animate.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/firstpage.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -84,9 +90,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/app/chatroom/font/WebFonts/css/fontiran.css",
+              "src/app/chatroom/font/WebFonts/css/style.css",
+              "node_modules/animate.css/animate.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/firstpage.js"
+            ]
           }
         },
         "lint": {
