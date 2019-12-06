@@ -5,12 +5,14 @@
 .mybody {
   font-family:ir,Tahoma, sans-serif !important;
   overflow-x: hidden;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../../assets/royalmain.jpeg");
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
 }
 .h2{
   font-family:ir,Tahoma, sans-serif !important;
+  font-size: medium;
 }
 /* Float four columns side by side */
 .column {
@@ -112,7 +114,7 @@
   padding: 20px;
   border-bottom-left-radius: 50px;
   border-bottom-left-radius: 50%;
-  background-color: #241332; /* The page background will be black */
+  background-color: #000000; /* The page background will be black */
   color: white; /* The page text will be white */
   margin-bottom: 20px;
 }

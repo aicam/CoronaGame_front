@@ -1,0 +1,118 @@
+<body *ngIf="page===1">
+<div class="rolepanel">
+  <div class="role">
+    <div class="roletitle">
+      مافیا
+    </div>
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" (click)="add_mafia()">
+        <img src="../../assets/plus.png" alt="" />
+      </button>
+      <input type="text" name="name" value="{{mafia}}">
+      <button class="minus-btn" type="button" name="button" (click)="min_mafia()">
+        <img src="../../assets/minus.png" alt="" />
+      </button>
+    </div>
+  </div>
+  <div class="role">
+    <div class="roletitle">
+      ناتاشا
+    </div>
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" (click)="add_natasha()">
+        <img src="../../assets/plus.png" alt="" />
+      </button>
+      <input type="text" name="name" value="{{natasha}}">
+      <button class="minus-btn" type="button" name="button" (click)="min_natasha()">
+        <img src="../../assets/minus.png" alt="" />
+      </button>
+    </div>
+  </div>
+  <div class="role">
+    <div class="roletitle">
+      شهروند
+    </div>
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" (click)="add_shahrvand()">
+        <img src="../../assets/plus.png" alt="" />
+      </button>
+      <input type="text" name="name" value="{{shahrvand}}">
+      <button class="minus-btn" type="button" name="button"(click)="min_shahrvand()">
+        <img src="../../assets/minus.png" alt="" />
+      </button>
+    </div>
+  </div>
+  <div class="role">
+    <div class="roletitle">
+      دکتر
+    </div>
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" (click)="add_doctor()">
+        <img src="../../assets/plus.png" alt="" />
+      </button>
+      <input type="text" name="name" value="{{doctor}}">
+      <button class="minus-btn" type="button" name="button" (click)="min_doctor()">
+        <img src="../../assets/minus.png" alt="" />
+      </button>
+    </div>
+  </div>
+  <div class="role">
+    <div class="roletitle">
+      کارآگاه
+    </div>
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" (click)="add_karagah()">
+        <img src="../../assets/plus.png" alt="" />
+      </button>
+      <input type="text" name="name" value="{{karagah}}">
+      <button class="minus-btn" type="button" name="button"(click)="min_karagah()">
+        <img src="../../assets/minus.png" alt="" />
+      </button>
+    </div>
+  </div>
+</div>
+<div class="submitpanel">
+  <div class="submitbutton" (click)="submitroles()">
+  ثبت نقش ها
+  </div>
+</div>
+</body>
+<body *ngIf="page===2">
+<div class="rolebutton" (click)="showrole()">
+  مشاهده نقش
+</div>
+<div class="nxbtncontainer">
+  <div class="myimage" *ngIf="flag===0">
+    <img src="../../assets/show.png">
+  </div>
+  <div class="myimage" *ngIf="flag===1">
+    <img src="../../assets/mafia.jpg">
+  </div>
+  <div class="myimage" *ngIf="flag===2">
+    <img src="../../assets/natasha.png">
+  </div>
+  <div class="myimage" *ngIf="flag===3">
+    <img src="../../assets/citizen.png">
+  </div>
+  <div class="myimage" *ngIf="flag===4">
+    <img src="../../assets/doctor.png">
+  </div>
+  <div class="myimage" *ngIf="flag===5">
+    <img src="../../assets/karagah.jpg">
+  </div>
+<div class="nextbutton" (click)="nextperson()">
+  نفر بعدی
+</div>
+</div>
+</body>
+<body *ngIf="page===3">
+<div class="textcontainer">
+  لحظات خوشی را برای شما آرزومندیم.
+</div>
+<div class="backbutton">
+بازی مجدد
+</div>
+<div class="returnbutton">
+بازگشت به صفحه اصلی
+</div>
+</body>

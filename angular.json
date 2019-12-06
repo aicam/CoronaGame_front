@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/app/chatroom/font/WebFonts/css/fontiran.css",
@@ -90,6 +91,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/app/chatroom/font/WebFonts/css/fontiran.css",
@@ -97,7 +99,8 @@
               "node_modules/animate.css/animate.css"
             ],
             "scripts": [
-              "src/assets/firstpage.js"
+              "src/assets/firstpage.js",
+              "src/assets/javascripts/jquery.js"
             ]
           }
         },
@@ -127,6 +130,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "r-service"
 }

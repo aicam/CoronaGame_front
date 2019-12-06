@@ -1,0 +1,100 @@
+@font-face {
+  font-family:ir;
+  src: url(../../assets/fonts/ir.ttf);
+}
+body{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+.chat
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+.chat-start-up
+{
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: #9e9c97 dotted 2px;
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+.chat li.left .chat-body
+{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+.chat li.right .chat-body
+{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+
+.chat li .chat-body p
+{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  margin: 0;
+  color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+  margin-right: 5px;
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+.panel {
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+.panel-body
+{
+  margin-top: 10%;
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+}
+
+
+.bg_gradiant{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  background-color: #9e9c97;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+::-webkit-scrollbar
+{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  width: 12px;
+  background-image: url("../../assets/choose_background.jpg");
+}
+
+.chat li:last-child{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  margin-bottom: 50px !important;
+}
+.chat li:first-child{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  margin-top :35px !important;
+}
+.textchat{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  color: #fffdf6 !important;
+  font-size: 1rem !important;
+  white-space: pre-line;
+}
+.txtmilisecond{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  color: #5943ff;
+}
+.bgpink{
+  font-family: -apple-system,ir,Tahoma, sans-serif;
+  width: max-content;
+  border-radius: 10px;
+}
+.mainbg{
+  font-family: -apple-system,-apple-system,ir,Tahoma, sans-serif;
+  background-color: #241332 !important;
+}

@@ -56,7 +56,7 @@ export class FirstPageComponent implements OnInit {
   }
 
    closeForm() {
-     this.http.get(Urls.P_URL + 'decline_competition/' + this.username).subscribe(response => {
+     this.http.get(Urls.P_URL + 'decline_competition_start/' + this.username + '/' + this.username2).subscribe(response => {
        console.log('a');
      });
      this.closedBool = true;

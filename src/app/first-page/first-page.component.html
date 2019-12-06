@@ -1,14 +1,12 @@
 <div class="mybody">
-  <div class="fixed-bottom w-100">
-    <button class="btn-success btn btn-outline-dark flipInX w-100" style="color: white;" [ngStyle]="{'opacity': gpOpacity}">بازی های دورهمی</button>
-  </div>
   <div class="opacity" id="opacity">
     <div id="example7" style="font-family: ir,Tahoma,sans-serif !important;">
-      <h2 align="center" style="font-family: ir,Tahoma,sans-serif !important;">رقیبت رو انتخاب کن</h2>
+      <h2 align="center" style="font-family: ir,Tahoma,sans-serif !important; color: #dad8d9; font-size:larger;">رقیبت رو انتخاب کن</h2>
     </div>
+
     <div class="row" style="margin-right:1vh">
-      <div id="example1" class="col-5" style="margin-top: 2vh;"
-           [ngStyle]="{'background-color': fitem.sex==1 ? '#cf8eff' : '#8A56AC'}"
+      <div id="example1" class="col-5" style="margin-top: 2vh;opacity: 0.9;"
+           [ngStyle]="{'background-color': fitem.sex==1 ? '#D4855A' : '#6C4E97'}"
            (click)="requestToJoin(i)" *ngFor="let fitem of usersData;index as i;">
         <img *ngIf="fitem.sex ==1 " src="../../assets/female-avatar.png" alt="Avatar" width="60vw" style="top:0;">
         <img *ngIf="fitem.sex ==0 " src="../../assets/male-avatar.png" alt="Avatar" width="60vw" style="top:0;">

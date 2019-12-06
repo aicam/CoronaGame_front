@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'rules/:shopID/:username' , component: RulesComponent},
   {path: 'gameresult/:game_id/:username/:score/:shopID', component: GameresultComponent},
   {path: 'mafia', component: MafiaGameComponent},
-  {path: 'xo', component: XoGameComponent},
+  {path: 'xo/:user1/:user2/:chatroom_id/:shop_id', component: XoGameComponent},
   {path: 'game-selection', component: GameSelectionComponent},
   {path: 'jort', component: JortComponent}
 ];

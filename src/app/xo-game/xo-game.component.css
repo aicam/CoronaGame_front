@@ -1,0 +1,258 @@
+html{
+  overflow-y: hidden;
+}
+.bg{
+  background-image: url("../../assets/bg.jpg");
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@font-face {
+  font-family:ir;
+  src: url(../../assets/fonts/ir.ttf);
+}
+.welcome{
+  width: 90vw;
+  position: relative;
+  padding: 10px;
+  margin: 0px auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  color: white;
+  background-color: blueviolet;
+  font-size: x-large;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+#board {
+  width: 74.5vw;
+  margin: 4vh auto;
+  border: 10px solid #000F08;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 23vw 23vw 23vw;
+  grid-template-rows: 23vw 23vw 23vw;
+  font-size: 50px;
+  background-color: #000F08;
+  grid-gap: .4vw;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+  font-family: Tahoma,sans-serif !important;
+}
+
+#board.locked {
+  opacity: .5;
+  pointer-events: none;
+  cursor: pointer;
+  touch-action: auto;
+  background-color: #000F08;
+}
+
+#board .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#board .square.checked {
+  cursor: default;
+}
+
+#board .square.winner {
+  background-color: #ff7474;
+}
+
+.mybutton{
+  width: 85vw;
+  text-align: center;
+  font-size: medium;
+  font-family: ir, Tahoma, sans-serif !important;
+  border-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+  position: relative;
+  padding: 5px;
+  margin: 15vh auto auto auto;
+  color: white;
+  background-color: #88b3e2;
+}
+.nobateharif{
+  position: relative;
+  height: 4vh;
+  margin: 4vh auto;
+  width: 50vw;
+  color: whitesmoke;
+  background-color: dimgray;
+  font-size: medium;
+  padding: auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+.youwinpanel{
+  position: relative;
+  width: 90vw;
+  padding: 10px;
+  margin: 0px auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  color: white;
+  background-color: #6ee252;
+  font-size: x-large;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+.youlost{
+  width: 90vw;
+  position: relative;
+  padding: 10px;
+  margin: 0px auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  color: white;
+  background-color: #e25f5e;
+  font-size: x-large;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+.draw{
+  width: 90vw;
+  position: relative;
+  padding: 10px;
+  margin: 0px auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  color: white;
+  background-color: #88b3e2;
+  font-size: x-large;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+.exitbutton{
+  width: 85vw;
+  text-align: center;
+  font-size: medium;
+  font-family: ir, Tahoma, sans-serif !important;
+  border-radius: 15px;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+  position: relative;
+  padding: 5px;
+  margin: 1vh auto;
+  color: white;
+  background-color: rgba(246, 106, 98, 0.83);
+}
+
+.spinner{
+  animation-name: spinner;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+  animation-duration: 2s;
+}
+
+@keyframes spinner {
+  from {
+    transform: skew(45deg,45deg);
+  }
+  to {
+    transform: skew(0deg,0deg);
+  }
+}
+/* emtehane OS 28 aban
+   emtehane riz par 30 aban
+   emtehane db 25 abans
+ */
+
+.timebarcontainer{
+  position: relative;
+  display:block;
+  margin: auto;
+  text-align: center;
+  padding: auto;
+  width: 90vw;
+  height: 4vh;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #a1a2a1;
+  box-shadow:5px 5px rgba(110, 84, 55, 0.2);
+}
+
+.lightgreen{
+  position: relative;
+  display:block;
+  margin: auto;
+  text-align: center;
+  padding: auto;
+  width: 90vw;
+  height: 3.99vh;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: lightgreen;
+  color: whitesmoke;
+  font-size: larger;
+  font-family: ir, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.tmpbutton{
+  width: 200px;
+  height: 100px;
+  color: red;
+}
+/*
+20 azar shabake saeat 11:30 ta 1:30
+ */
+.runin{
+  animation-name: runin;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+  animation-duration: 3s;
+}
+.myanimation{
+  animation-name: myanimation;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+  animation-duration: 3.5s;
+}
+@keyframes runin {
+  0% {
+    transform:translateX(+1500px);
+  }
+  80% {
+    transform: translateX(30px);
+  }
+  90%{
+    transform: translateX(-15px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes myanimation {
+  0%{
+    transform: translateX(+1000px);
+  }
+  50%{
+    transform: translateX(500px);
+  }
+  75%{
+    transform: translateX(50px);
+  }
+  90%{
+    transform: translateX(-20px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+.container{
+  position: relative;
+  width: 100%;
+  margin: 1vh;
+}

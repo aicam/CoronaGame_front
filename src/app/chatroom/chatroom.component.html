@@ -1,0 +1,68 @@
+<!------ Include the above in your HEAD tag ---------->
+<div
+  style="background-image: url('../../assets/choose_background.jpg');background-attachment: fixed;background-repeat: repeat;min-height: 100%;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 p-0">
+        <div class="panel panel-primary">
+          <div style="width:100%;position: fixed;top:0;">
+            <div class="bg_gradiant shadow " style="width: 100%;">
+              <div class="btn btn-danger text-center text-white shadow"
+                   style="border-radius: 10px;"
+                   (click)="clicked_report()">
+                خروج
+              </div>
+              <div class="btn text-center text-white shadow float-right"
+                   style="border-radius: 10px;"
+                   (click)="start_game(1)">
+                شروع بازی شانسی
+              </div>
+            </div>
+          </div>
+          <div class="input-group fixed-bottom">
+                <textarea style="font-family: ir,serif !important;" type="text" [(ngModel)]="message"
+                          class="form-control rounded-0 text-right" (focus)="start_typing()"
+                          placeholder="پیام خودرا بنویسید"></textarea>
+            <span class="input-group-btn shadow">
+                            <button class="btn btn-success shadow rounded-0 h-100" (click)="sendMessage()"
+                                    id="btn-chat">
+                                ارسال</button>
+                        </span>
+          </div>
+
+          <div class="panel-collapse" id="collapseOne">
+            <div class="panel-body text-right w-100 p-3" id="main_div">
+              <ul class="chat" dir="rtl" id="chatul" style="margin-top: 100px;">
+                <li class="clearfix chat-start-up" *ngFor="let item of chatMessages; let i = index" id="{{i}}"
+                    style="justify-content: left;width: 100%;"><span class="chat-img pull-left">
+                        </span>
+                  <div class="chat-body clearfix">
+                    <div class="bgpink shadow" style="font-family: ir,Tahoma,IRANSans, serif;padding: 5px;"
+                         [ngStyle]="{'background-color':userFrom === item.from ? '#f9fbfd' : '#f9fbfd'}"
+                         [ngClass]="{'float-left': !(userFrom === item.from)}">
+                      <p
+                        style="color: black !important; font-family:ir,Tahoma, IRANSans, serif;word-wrap: break-word;display: inline-block;max-width:80vw;direction: ltr;"
+                        class="textchat p-1">
+                        {{item.text}}
+                      </p>
+                      <br>
+                      <div>
+                        <small class="pull-right text-muted text-black font-weight-bold"
+                               [ngClass]="{'float-left': !(userFrom === item.from)}">
+                          <span class="glyphicon glyphicon-time"></span><span
+                          class="txtmilisecond"
+                          style="color: #bcb8b0;font-size: xx-small;">{{item.time_passed}}</span><span class="mr-1"
+                                                                                                       style="color: #bcb8b0; font-size: xx-small">دقیقه  پیش</span>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+<body>
+<div class="textcontainer" *ngIf="myflag ==0">
+  <p>{{truthArr[haghighat]}}</p>
+</div>
+  <div class="textcontainer" *ngIf="myflag ==1" style="background-color: #ee32e7" height="100%">
+    <p>{{dareArr[jorat]}}</p>
+  </div>
+<div class="opacity" *ngIf="clicked ==1">
+  <div class="mycontainer">
+    <div [ngClass]="{'joratb' : dare !== 1, 'choosenone': dare === 1}" (click)="choosejorat();">
+      جرئت
+    </div>
+  </div>
+  <div class="mycontainer">
+<div  [ngClass]="{'haghb' :truth !== 1, 'choosenone': truth === 1}" (click)="choosehaghighat()">
+  حقیقت
+</div>
+  </div>
+</div>
+<div class="opacityfull" *ngIf="clicked ==0 ">
+  <div class="mycontainer">
+    <div [ngClass]="{'joratb' : dare !== 1, 'choosenone': dare === 1}" (click)="choosejorat();">
+      جرئت
+    </div>
+  </div>
+  <div class="mycontainer">
+    <div  [ngClass]="{'haghb' :truth !== 1, 'choosenone': truth === 1}" (click)="choosehaghighat()">
+      حقیقت
+    </div>
+  </div>
+</div>
+<div class="stickybottom">
+    <div class="returnbutton" (click)="myclick()">
+      نفر بعدی
+    </div>
+  </div>
+</body>

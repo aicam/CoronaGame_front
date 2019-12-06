@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family:ir;
+  src: url(../../assets/fonts/ir.ttf);
+}
+body{
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  font-family: ir, Tahoma, sans-serif;
+  margin: auto;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.joratb{
+  padding: 1vh;
+  border-radius: 15px;
+  box-shadow: #bfbdb6 2px 2px;
+  background-color: deepskyblue;
+  color: black;
+  position: relative;
+  width: 50vw;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  margin: auto;
+}
+.haghb{
+  padding: 1vh;
+  border-radius: 15px;
+  box-shadow: #bfbdb6 2px 2px;
+  background-color: #ff6973;
+  color: black;
+  position: relative;
+  height: auto;
+  width: 50vw;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  margin: auto;
+}
+.choosenone{
+  padding: 1vh;
+  border-radius: 15px;
+  box-shadow: #bfbdb6 2px 2px;
+  background-color: #4dff36;
+  color: black;
+  position: relative;
+  height: auto;
+  width: 50vw;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  margin: auto;
+}
+.mycontainer{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.textcontainer{
+  box-shadow: #bfbdb6 2px 2px;
+  background-color: #ffa02b;
+  color: black;
+  border-radius: 25px;
+  height: auto;
+  width: 90vw;
+  position: relative;
+  margin: auto;
+  margin-top: 2vh;
+  padding: 1vh;
+  text-align: center;
+  font-family: ir, Tahoma, sans-serif !important;
+}
+.textcontainer p {
+  padding: 30px 30px;
+  direction: rtl;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+}
+.returnbutton{
+  position: relative;
+  margin: auto;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  font-size: large;
+  background-color: #8A56AC;
+  color: white;
+  padding: 1vh;
+  border-radius: 10px;
+  box-shadow: #bfbdb6 2px 2px;
+}
+.stickybottom{
+  position: fixed;
+  height: 20vh;
+  width: 100vw;
+  bottom: 1vh;
+}
+.opacity{
+  opacity: 0.5;
+}
+.opacityfull{
+  opacity: 1;
+}

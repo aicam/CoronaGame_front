@@ -1,0 +1,31 @@
+<html>
+<body>
+<div id="example7">
+  <h1>نتیجه:</h1>
+  <h3 *ngIf="!exitCheck">بازی حریف هنوز تمام نشده</h3>
+  <div class="winh4" *ngIf="win&&exitCheck">شما برنده شدید</div>
+  <div class="loseh4" *ngIf="!win&&exitCheck">شما باختید</div>
+</div>
+<div class="mycontainer">
+<div class="my">
+  <div class="col">
+  امتیاز شما :
+  <img src="../../assets/my.png">
+  <div class="centered">{{yourScore}}</div>
+  </div>
+</div>
+<div class="your">
+  <div class="col">
+  امتیاز حریف :
+  <img src="../../assets/your.png">
+  <div class="centered">{{competitorScore}}</div>
+</div>
+</div>
+  </div>
+<a (click)="clicked()">
+  <button class="open-button" align="center">بازگشت</button>
+</a>
+
+</body>
+</html>
+

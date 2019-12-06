@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -13,6 +12,8 @@ import { XoGameComponent } from './xo-game/xo-game.component';
 import { MafiaGameComponent } from './mafia-game/mafia-game.component';
 import { GameSelectionComponent } from './first-page/game-selection/game-selection.component';
 import { JortComponent } from './jort/jort.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule, MatButtonModule, MatSelectModule, MatIconModule , MatProgressSpinnerModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -27,10 +28,16 @@ import { JortComponent } from './jort/jort.component';
     JortComponent
   ],
   imports: [
+    MatButtonModule,
+    MatIconModule,
+    MatInputModule,
+    MatSelectModule,
+    MatProgressSpinnerModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

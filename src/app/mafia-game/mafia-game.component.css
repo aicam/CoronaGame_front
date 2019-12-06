@@ -1,0 +1,179 @@
+@font-face {
+  font-family:ir;
+  src: url(../../assets/fonts/ir.ttf);
+}
+html,body{
+  font-family:ir, Tahoma, sans-serif !important;
+  direction: rtl;
+  overflow: hidden;
+}
+.rolepanel{
+  position: relative;
+  padding-top:3vh;
+  padding-bottom: 1vh;
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+}
+.role{
+  position: relative;
+  width: 70vw;
+  height: 15vh;
+  margin: auto;
+  padding: auto;
+}
+.submitpanel{
+  width: 100vw;
+  height:10vh;
+  position: fixed;
+  bottom: 0;
+}
+.submitbutton{
+  padding: auto;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+  background-color: #4EBDEF;
+  text-align: center;
+  box-shadow: #4EBDEF;
+  color: white;
+  width: 50vw;
+  height: auto;
+}
+.roletitle{
+  text-align: center;
+  font-family: ir, Tahoma, sans-serif !important;
+  color: black;
+  font-size: large;
+}
+
+.buttons {
+  position: relative;
+}
+
+.delete-btn {
+  Cursor: pointer;
+}
+.quantity {
+  position: relative;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 10vw;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+button[class*=btn] {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-color:#4EBDEF;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin: auto;
+  height: 30px;
+  width: 30px;
+
+}
+.plus-btn img {
+  margin: auto;
+  height: 30px;
+  width: 30px;
+
+}
+
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.rolebutton{
+  height: auto;
+  width: 60vw;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-size: xx-large;
+  font-family: ir, Tahoma, sans-serif !important;
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+.nextbutton{
+  height: auto;
+  width: 60vw;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  font-size: xx-large;
+  font-family: ir, Tahoma, sans-serif !important;
+  border-radius: 15px;
+  color: white;
+  background-color:red;
+  cursor: pointer;
+}
+.nxbtncontainer{
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+
+}
+.myimage{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+.myimage img{
+  height: 300px;
+  width: 300px;
+}
+
+.textcontainer{
+  position: relative;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  font-size: xx-large;
+  background-color: lightcoral;
+  color: black;
+  margin-top: 10vh;
+  padding: auto;
+  border-radius: 20px;
+}
+
+.backbutton{
+   position: relative;
+   font-family: ir, Tahoma, sans-serif !important;
+   text-align: center;
+   font-size: large;
+   background-color: #4fa1f1;
+   color: white;
+   margin-top: 40vh;
+   padding: auto;
+   border-radius: 10px;
+}
+.returnbutton{
+  position: relative;
+  font-family: ir, Tahoma, sans-serif !important;
+  text-align: center;
+  font-size: large;
+  background-color: #f12f44;
+  color: white;
+  margin-top: 10vh;
+  padding: auto;
+  border-radius: 10px;
+}

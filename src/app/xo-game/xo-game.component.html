@@ -1,0 +1,29 @@
+<div class="bg">
+  <div class="welcome runin" *ngIf="!gameOver">
+    به بازی XO خوش آمدید
+  </div>
+  <div class="youwinpanel runin" *ngIf="gameOver && lastWinner == PLAYER_HUMAN">شما برنده شدید</div>
+  <div class="youlost runin" *ngIf="gameOver && lastWinner == PLAYER_COMPUTER">شما باختید</div>
+  <div class="draw runin" *ngIf="gameOver && lastWinner == DRAW">بازی مساوی شد</div>
+  <div id="board" [class.locked]="boardLocked || gameOver">
+    <div *ngFor="let square of board"
+         class="square spinner"
+         [class.checked]="square.value != ''"
+         [class.winner]="square.winner"
+         (click)="square_click(this.square)">
+      {{ square.value }}
+    </div>
+  </div>
+  <div class="timebarcontainer myanimation">
+    <div id="timing" class="lightgreen">
+    </div>
+  </div>
+  <div class="nobateharif" *ngIf="boardLocked">
+    نوبت حریف
+  </div>
+  <div class="container">
+    <div class="exitbutton" (click)="exitbutton()">
+      خروج از بازی
+    </div>
+  </div>
+</div>

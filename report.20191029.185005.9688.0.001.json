@@ -1,0 +1,300 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191029.185005.9688.0.001.json",
+    "dumpEventTime": "2019-10-29T18:50:05Z",
+    "processId": 9688,
+    "cwd": "C:\\Users\\Ali 09212982058\\Desktop\\Work\\messenger\\r-service",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Ali 09212982058\\Desktop\\Work\\messenger\\r-service\\node_modules\\.bin\\\\..\\@angular\\cli\\bin\\ng",
+      "serve",
+      "---host",
+      "0.0.0.0"
+    ],
+    "nodejsVersion": "v11.15.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "11.15.0",
+      "v8": "7.0.276.38-node.19",
+      "uv": "1.27.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.37.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v11.15.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "host": "DESKTOP-3JQ8QMU"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7d518d24e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d518c0f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d518b923",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d527dc22",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d56a609e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d56a5fd7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d5759a14",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d574f838",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d574e038",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d5757967",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d57579e6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d588f8b1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7d5949786",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000012e3ea50481",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 312451072,
+    "totalCommittedMemory": 312451072,
+    "usedMemory": 244889840,
+    "availableMemory": 1275037288,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1031168,
+        "used": 1031168,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 245043200,
+        "committedMemory": 245043200,
+        "capacity": 240878336,
+        "used": 188082712,
+        "available": 52795624
+      },
+      "code_space": {
+        "memorySize": 8912896,
+        "committedMemory": 8912896,
+        "capacity": 8563520,
+        "used": 5283616,
+        "available": 3279904
+      },
+      "map_space": {
+        "memorySize": 7876608,
+        "committedMemory": 7876608,
+        "capacity": 7736944,
+        "used": 2958880,
+        "available": 4778064
+      },
+      "large_object_space": {
+        "memorySize": 49045504,
+        "committedMemory": 49045504,
+        "capacity": 1261201576,
+        "used": 47499944,
+        "available": 1213701632
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 39.5,
+    "kernelCpuSeconds": 8.453,
+    "cpuConsumptionPercent": 0.260246,
+    "maxRss": 519483392,
+    "pageFaults": {
+      "IORequired": 678001,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 5543,
+      "writes": 30
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Ali 09212982058\\Desktop\\Work\\messenger\\r-service",
+    "PROMPT": "$P$G",
+    "SystemDrive": "C:",
+    "GOPATH": "C:\\Users\\Ali 09212982058\\go",
+    "OS": "Windows_NT",
+    "LOCALAPPDATA": "C:\\Users\\Ali 09212982058\\AppData\\Local",
+    "PyCharm": "C:\\Program Files\\JetBrains\\PyCharm 2018.3.5\\bin;",
+    "ProgramW6432": "C:\\Program Files",
+    "CUDA_PATH_V10_1": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "TERMINAL_EMULATOR": "JetBrains-JediTerm",
+    "ProgramFiles": "C:\\Program Files",
+    "__INTELLIJ_COMMAND_HISTFILE__": "C:\\Users\\Ali 09212982058\\.WebStorm2018.3\\config\\terminal\\history\\history-97",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "APPDATA": "C:\\Users\\Ali 09212982058\\AppData\\Roaming",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "COMPUTERNAME": "DESKTOP-3JQ8QMU",
+    "SESSIONNAME": "Console",
+    "CUDA_PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1",
+    "OneDrive": "C:\\Users\\Ali 09212982058\\OneDrive",
+    "WebStorm": "C:\\Program Files\\JetBrains\\WebStorm 2018.3.4\\bin;",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "NVCUDASAMPLES10_1_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.1",
+    "NVCUDASAMPLES_ROOT": "C:\\ProgramData\\NVIDIA Corporation\\CUDA Samples\\v10.1",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "BAZEL_SH": "C:\\msys64\\usr\\bin\\bash.exe",
+    "NVTOOLSEXT_PATH": "C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\",
+    "GoLand": "C:\\Program Files\\JetBrains\\GoLand 2019.2\\bin;",
+    "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2018.3.4\\bin;",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "LOGONSERVER": "\\\\DESKTOP-3JQ8QMU",
+    "PyCharm Community Edition": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2018.3.5\\bin;",
+    "=::": "::\\",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "TEMP": "C:\\Users\\ALI092~1\\AppData\\Local\\Temp",
+    "USERNAME": "Ali 09212982058",
+    "USERPROFILE": "C:\\Users\\Ali 09212982058",
+    "ProgramData": "C:\\ProgramData",
+    "HOMEPATH": "\\Users\\Ali 09212982058",
+    "MOSQUITTO_DIR": "C:\\Program Files\\mosquitto",
+    "PROCESSOR_REVISION": "9e0a",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "SystemRoot": "C:\\WINDOWS",
+    "USERDOMAIN": "DESKTOP-3JQ8QMU",
+    "ChocolateyLastPathUpdate": "Sun Feb 10 17:10:11 2019",
+    "windir": "C:\\WINDOWS",
+    "PROCESSOR_LEVEL": "6",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_201",
+    "ANDROID_HOME": "C:\\Users\\Ali 09212982058\\AppData\\Local\\Android\\Sdk",
+    "NUMBER_OF_PROCESSORS": "8",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "TMP": "C:\\Users\\ALI092~1\\AppData\\Local\\Temp",
+    "PATH": "C:\\Users\\Ali 09212982058\\Desktop\\Work\\messenger\\r-service\\node_modules\\.bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files\\Docker\\Docker\\Resources\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1\\libnvvp;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Ali 09212982058\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Java\\jdk1.8.0_201;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY\\;C:\\Users\\Ali 09212982058\\AppData\\Local\\Programs\\Python\\Python37\\Scripts;C:\\msys64\\usr\\bin;C:\\bazel;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2019.1\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\MATLAB\\R2016a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2016a\\bin;C:\\Program Files\\MATLAB\\R2016a\\polyspace\\bin;C:\\Program Files\\Bitcoin\\daemon;C:\\Python27;C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\gradle-2.8\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Go\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\Ali 09212982058\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\WebStorm 2018.3.4\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\atom\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2018.3.4\\bin;C:\\Program Files\\Java\\jdk1.8.0_201;C:\\Users\\Ali 09212982058\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2018.3.5\\bin;C:\\Program Files\\JetBrains\\PyCharm 2018.3.5\\bin;C:\\bazel;C:\\msys64\\usr\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v10.1\\bin;C:\\Program Files\\Bitcoin\\daemon;C:\\Python27;C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\Ali 09212982058\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Ali 09212982058\\AppData\\Roaming\\npm;C:\\Program Files\\heroku\\bin;C:\\Users\\Ali 09212982058\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\GoLand 2019.2\\bin;;C:\\Users\\Ali 09212982058\\go\\bin",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-3JQ8QMU",
+    "asl.log=Destination": "file",
+    "PUBLIC": "C:\\Users\\Public",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
